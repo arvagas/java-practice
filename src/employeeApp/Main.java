@@ -12,8 +12,7 @@ public class Main {
 
     myEmp.setFname("Super Arvin");
   
-    //this will tell us the type of the object (employeeApp.Employee) appended with memory address of object (@1f32e575)
-    //base toString method
+    //this will tell us the type of the object (employeeApp.Employee) appended with memory address of object (@1f32e575) ONLY IF the base toString method has not been overrode
     System.out.println(myEmp);
 
     System.out.println(myEmp.getFname());

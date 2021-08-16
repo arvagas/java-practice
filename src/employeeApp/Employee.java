@@ -81,4 +81,14 @@ public class Employee {
   public int getId() {
     return id;
   }
+
+  //This is an annotation.. Everytime you override a method, you should add @Override
+  @Override
+  public String toString() {
+    return "Employee { \n" +
+            "id: " + id + "\n" +
+            "fname: " + fname + "\n" +
+            "lname: " + lname + "\n" +
+            "salary: " + salary + "\n}";
+  }
 }
