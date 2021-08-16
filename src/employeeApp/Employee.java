@@ -82,6 +82,11 @@ public class Employee {
     return id;
   }
 
+  public double doubleSalary(){
+    salary *= 2;
+    return salary;
+  }
+
   //This is an annotation.. Everytime you override a method, you should add @Override
   @Override
   public String toString() {

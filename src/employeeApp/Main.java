@@ -17,6 +17,7 @@ public class Main {
 
     System.out.println(myEmp.getFname());
     System.out.println(myEmp.getHas401k());
+    System.out.println(myEmp.doubleSalary());
 
     //----------**********----------**********----------
 
