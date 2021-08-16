@@ -17,5 +17,35 @@ public class Main {
 
     System.out.println(myEmp.getFname());
     System.out.println(myEmp.getHas401k());
+
+    //----------**********----------**********----------
+
+    //Testing out if values are not of the same value and being calculated
+    System.out.println(7 + 1.5); //answer will be a double
+    System.out.println(7 / 2); //answer will be integer, decimals are chopped off
+    System.out.println(7 / 2.0); //answer will be double
+
+    //----------**********----------**********----------
+
+    int a = 5;
+    int b = 2;
+
+    //You can typecast values by prepending another type with parenthesis
+    System.out.println((double)a / b); //will output a double even though both values were originally integers
+    
+    //----------**********----------**********----------
+
+    String myStr = "Hello World!";
+
+    System.out.println(myStr);
+    //The following takes the value of the string and update it accordingly, without modifying the original value
+    System.out.println(myStr.toLowerCase());
+    System.out.println(myStr.replaceAll("e", "3"));
+    System.out.println(myStr.replaceAll("[aeiou]", "_"));
+
+    //----------**********----------**********----------
+
+    //Char can only be used with single quotes
+    char myChar = 'a';
   }
 }
